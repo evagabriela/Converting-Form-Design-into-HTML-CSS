@@ -9,6 +9,7 @@ body {
 	-webkit-font-smoothing: antialiased;
 	 font-family: 'Open Sans';
 	 text-align: center;
+	 background-color: #98D2BF;
 }
 
 /* ----------------------------------------
@@ -17,9 +18,67 @@ Typography
 h1 {
 	font-family: "Oswald";
 	text-transform: uppercase;
+	text-align: left;
 }
 
 /* ----------------------------------------
 Forms
 ------------------------------------------- */
+form {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	        flex-direction: row;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	        justify-content: space-between;
+	 margin-bottom: 25px;
+}
 
+input, textarea {
+	border: 2px solid #dfdfdf;
+    margin: 12px 0;
+    padding: 10px 10px;
+    outline: 0;
+}
+
+
+::-webkit-input-placeholder {
+   color: #a9a9a9;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #a9a9a9;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #a9a9a9;
+}
+
+:-ms-input-placeholder {  
+   color: #a9a9a9;
+}
+
+/* ----------------------------------------
+Layout
+------------------------------------------- */
+.wrap {
+	background-color: #fff;
+	width: 50%;
+	margin: 0 auto;
+	padding: 30px 60px;
+}
+
+.col-full {
+	width: 100%
+}
+
+#contact {
+	margin: 45px 0;
+	border-bottom: 2px solid #dfdfdf;
+}
