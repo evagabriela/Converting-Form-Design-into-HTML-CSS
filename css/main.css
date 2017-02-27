@@ -64,6 +64,10 @@ input, textarea {
    color: #a9a9a9;
 }
 
+label {
+	text-align: left;
+}
+
 /* ----------------------------------------
 Layout
 ------------------------------------------- */
@@ -78,7 +82,16 @@ Layout
 	width: 100%
 }
 
+.col-third {
+	width: 32%;
+}
+
 #contact {
 	margin: 45px 0;
 	border-bottom: 2px solid #dfdfdf;
+}
+
+#about {
+	border-bottom: 2px solid #dfdfdf;
+	margin: 45px 0;
 }
