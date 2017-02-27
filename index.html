@@ -12,9 +12,37 @@
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+	<section>
+		<h1>Your Contact Info</h1>
+		<form>
+			<label>Full Name</label>
+			<input type="text" name="username" placeholder="Enter your Name">	
+			<label>Email</label>
+			<input type="text" name="email-address" placeholder="Enter your email">
+			<label>Phone Number</label>
+			<input type="tel" name="usertel" placeholder="Enter your phone Number">
+		</form>
+	</section>
 
+	<section>
+		<h1>Skills and Interests</h1>
+		<form>
+			<label>What Course are you interested in?</label>
+			<select>
+				<option value="select">Select</option>
+			</select>
+			<label>Where do you want to take this course?</label>
+			<input type="radio" name="San_Francisco" value="San Francisco">
+			<input type="radio" name="Chicago" value="Chicago">
+			<label>Past Experience</label>
+			<textarea name="past_experience" placeholder="What is your past experience?"></textarea>
+		</form>
+	</section>
 
-
-
+	<section>
+		<label>I want to receive email updates.</label>
+		<input type="checkbox" name="store_updates">
+		<button type="submit">Submit Application</button>
+	</section>
 </body>
 </html>
